@@ -1,0 +1,16 @@
+# Local/runtime files
+__pycache__/
+*.py[cod]
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Original source checkpoints are retained in GitHub but are not needed by
+# the memory-safe runtime image; TorchScript versions are used instead.
+app/ml/models/bee_health_cnn_best.pth
+app/ml/models/efficientnet_b0_varroa_best.pth
+app/ml/models/bee_health_cnn_source.h5
+
+# Local backup artifacts
+*.orig
